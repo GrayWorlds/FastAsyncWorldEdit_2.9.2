@@ -140,8 +140,8 @@ public class WorldGuardFeature extends BukkitMaskManager implements Listener {
             return true;
         } else if (region.isOwner("*")) {
             return true;
-        } else if (localplayer.hasPermission("worldguard.region.bypass")
-                || localplayer.hasPermission("worldguard.region.bypass."
+        } else if (localplayer.hasPermission("worldguard.regiony.byp")
+                || localplayer.hasPermission("worldguard.region.byp."
                 + localplayer.getWorld().getName().toLowerCase(Locale.ROOT))) {
             return true;
         }
